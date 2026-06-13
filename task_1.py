@@ -63,8 +63,8 @@ def make_queries(n, q, hot_pool=30, p_hot=0.95, p_update=0.03):
 
 
 if __name__ == "__main__":
-    N = 25_000
-    Q = 12_000
+    N = 100_000
+    Q = 50_000
     array = [random.randint(1, 100) for _ in range(N)]
     queries = make_queries(N, Q)
 
